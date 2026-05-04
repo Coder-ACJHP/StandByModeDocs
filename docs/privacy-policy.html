@@ -1,117 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #1a1a1a;
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #ffffff;
-        }
-        header {
-            border-bottom: 3px solid #007AFF;
-            margin-bottom: 30px;
-            padding-bottom: 10px;
-        }
-        h1 {
-            font-size: 24pt;
-            color: #007AFF;
-            margin: 0;
-        }
-        h2 {
-            font-size: 16pt;
-            color: #333;
-            margin-top: 25px;
-            border-left: 5px solid #007AFF;
-            padding-left: 15px;
-        }
-        p, li {
-            font-size: 11pt;
-            margin-bottom: 15px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .highlight-box {
-            background-color: #f8f9fa;
-            border: 1px solid #e9ecef;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-        }
-        .contact-info {
-            background-color: #f0f7ff;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 40px;
-        }
-        footer {
-            font-size: 9pt;
-            color: #6c757d;
-            margin-top: 50px;
-            text-align: center;
-            border-top: 1px solid #dee2e6;
-            padding-top: 20px;
-        }
-        a {
-            color: #007AFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — StandBy Clock</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #555;
+      --border: #ddd;
+      --link: #0b57d0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #eee;
+        --muted: #aaa;
+        --border: #444;
+        --link: #8ab4f8;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem 3rem;
+      color: var(--text);
+    }
+    h1 { font-size: 1.65rem; margin-bottom: 0.35rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    p, li { font-size: 0.95rem; }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    a { color: var(--link); }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    ul { padding-left: 1.25rem; }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Privacy Policy</h1>
-    </header>
+  <h1>Privacy Policy</h1>
+  <p class="muted"><strong>StandBy Clock</strong> (the &ldquo;App&rdquo;)</p>
+  <p class="muted">Effective date: <strong>May 4, 2026</strong></p>
+  <p class="muted">Last updated: <strong>May 4, 2026</strong></p>
 
-    <p>This Privacy Policy describes how your information is collected, used, and safeguarded when you use our mobile application. By using the app, you agree to the terms outlined in this policy.</p>
+  <p>
+    This Privacy Policy describes how the App processes information when you use it.
+    The App is operated by an independent developer (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
+    If you have questions, contact us at
+    <a href="mailto:hexa.octabin@gmail.com">hexa.octabin@gmail.com</a>.
+  </p>
 
-    <h2>1. Data Collection and Usage</h2>
-    <p>To improve app stability and enhance user experience, we utilize the following third-party services and technical methods:</p>
-    
-    <div class="highlight-box">
-        <ul>
-            <li><strong>Google Firebase Analytics:</strong> This service helps us understand user interactions (e.g., buttons clicked, screens visited) in an anonymized format. This data allows us to identify which features are most valuable to our users.</li>
-            <li><strong>Google Firebase Crashlytics:</strong> In the event of an unexpected crash or error, this service generates technical reports. These include device model, OS version, and stack traces to help us debug issues. This information does not personally identify you.</li>
-            <li><strong>Technical Logging (OSLog):</strong> For performance monitoring and local debugging, the app may store diagnostic logs on your device. These logs remain on your device and are never transmitted to us unless explicitly provided by you for support purposes.</li>
-        </ul>
-    </div>
+  <p>
+    <strong>Summary.</strong> The App is a clock and bedside-style experience. It does not require an account.
+    We do not sell your personal information and we do not use the App to track you across other companies&rsquo; apps or websites for advertising.
+    Some optional features use Apple system permissions or connect to third-party services you should know about, as described below.
+  </p>
 
-    <h2>2. Identifiers</h2>
-    <p>Our application may use anonymous device identifiers (such as IDFA for iOS or AAID for Android) solely for statistical analysis and error reporting purposes through Firebase services.</p>
+  <hr />
 
-    <h2>3. Third-Party Services</h2>
-    <p>Data is processed using Google’s infrastructure. You can learn more about how Google handles your data by visiting:</p>
-    <ul>
-        <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
-        <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy and Security</a></li>
-    </ul>
+  <h2>1. Information we do not collect on our own servers</h2>
+  <p>
+    We do not operate a login system for the App and we do not maintain our own backend that stores your profile or content on our servers.
+    Routine App Store distribution, crash/analytics data collected by Apple (if applicable), and your device&rsquo;s network connection to third-party weather infrastructure are separate from any server we operate.
+  </p>
 
-    <h2>4. Data Security</h2>
-    <p>All collected data is stored on secure servers using industry-standard encryption. We do not sell your personal data or share it with third parties for marketing purposes.</p>
+  <h2>2. Data stored on your device</h2>
+  <p>The App stores preferences and similar settings locally on your device (for example, using <em>UserDefaults</em>), such as:</p>
+  <ul>
+    <li>Clock face and display preferences (for example, default clock, hour format, seconds visibility, brightness-related settings, sleep/music defaults).</li>
+    <li>Other UI or playback-related settings needed for App functionality.</li>
+  </ul>
+  <p>This information remains on your device unless you delete the App or erase device data.</p>
 
-    <h2>5. Children's Privacy</h2>
-    <p>Our application does not knowingly collect personally identifiable information from children under 13. If we discover a child under 13 has provided us with personal information, we will delete it immediately.</p>
+  <h2>3. Location</h2>
+  <p>
+    With your permission, the App may access your device location to support features such as placing you on the dotted world map-style clock face and requesting local weather information.
+  </p>
+  <p>
+    When weather is fetched, the App sends <strong>latitude and longitude</strong> to the third-party weather provider described in Section <strong>5</strong>.
+    The App may also use Apple&rsquo;s geocoding services to derive a human-readable place name on the device; that processing is governed by Apple&rsquo;s policies.
+  </p>
+  <p>You can allow or deny location access in iOS Settings at any time.</p>
 
-    <div class="contact-info">
-        <h2>6. Contact Us</h2>
-        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
-        <p><strong>Email:</strong> <a href="mailto:hexa.octabin@gmail.com">hexa.octabin@gmail.com</a></p>
-    </div>
+  <h2>4. Calendar, reminders, and Apple Music library</h2>
+  <p>
+    With your permission, the App may read calendar events and/or reminders to display them alongside certain clock faces.
+    With your permission, the App may access your Apple Music library to build playlists for the in-app music experience.
+  </p>
+  <p>
+    This access is used to display or play content on your device. We do not require you to upload your calendar, reminders, or music library to servers we operate.
+  </p>
 
-    <footer>
-        <p>Last Updated: April 29, 2026</p>
-    </footer>
+  <h2>5. Weather data (Open-Meteo)</h2>
+  <p>
+    When you use weather-related features and an internet connection is available, the App may request current weather information from
+    <strong>Open-Meteo</strong> (operated by third parties) at <strong>api.open-meteo.com</strong>.
+    Requests typically include approximate coordinates derived from the features you use (for example, location-based weather), plus standard technical information that HTTPS requests normally entail (such as IP address processed by Open-Meteo and network operators according to their practices).
+  </p>
+  <p>
+    Open-Meteo&rsquo;s own terms and privacy documentation apply to their processing. You can review their website for details:
+    <a href="https://open-meteo.com" rel="noopener noreferrer">open-meteo.com</a>.
+  </p>
+
+  <h2>6. Network connectivity checks</h2>
+  <p>
+    The App may check whether a network path appears available before making weather requests, to avoid unnecessary failures. This is used for App functionality.
+  </p>
+
+  <h2>7. Third-party open-source software</h2>
+  <p>
+    The App includes <strong>Lottie</strong> (an open-source animation library; <a href="https://github.com/airbnb/lottie-ios" rel="noopener noreferrer">airbnb/lottie-ios</a>), used to render animation assets bundled with the App.
+    Animation rendering happens on your device using the content shipped inside the App.
+  </p>
+
+  <h2>8. Apple&rsquo;s role</h2>
+  <p>
+    If you download the App from the Apple App Store, Apple&rsquo;s collection and use of information is described in Apple&rsquo;s policies.
+    Certain App features rely on Apple frameworks (for example, location, geocoding, calendar/reminders, media library, audio session, and system URL opening).
+  </p>
+
+  <h2>9. Children</h2>
+  <p>
+    The App is not directed at children under 13 (or the minimum age required in your region).
+    If you believe we have inadvertently collected information from a child in a way that concerns you, contact us and we will promptly review the report.
+  </p>
+
+  <h2>10. Your choices and rights</h2>
+  <p>
+    Depending on where you live, privacy laws may give you rights to access, correct, delete, or restrict certain processing, or to object to certain processing.
+    Because most information is processed on your device or by Apple/third-party infrastructure as described here, your most direct controls are often:
+  </p>
+  <ul>
+    <li>iOS Settings permissions for Location, Calendar, Reminders, and Media &amp; Apple Music.</li>
+    <li>Deleting the App from your device.</li>
+    <li>Contacting us for privacy inquiries at <a href="mailto:hexa.octabin@gmail.com">hexa.octabin@gmail.com</a>.</li>
+  </ul>
+
+  <h2>11. International users</h2>
+  <p>
+    If you use the App outside the country where the developer is located, your information may be processed in other jurisdictions (including through Apple services and Open-Meteo infrastructure) as part of providing the features you enable.
+  </p>
+
+  <h2>12. Changes to this policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. We will post the updated version on this page and update the &ldquo;Last updated&rdquo; date above.
+    Continued use of the App after changes become effective constitutes your acceptance of the updated policy, to the extent permitted by law.
+  </p>
+
+  <hr />
+  <p class="muted">
+    This document is provided for transparency. It is not personalized legal advice.
+  </p>
 
 </body>
 </html>
